@@ -1,0 +1,119 @@
+body {
+    background: #eaebec;
+    font-family: "Open Sans", sans-serif; 
+}
+/*card styles */
+#card{
+    width:340px;
+    height:500px;
+    top:80px;
+    left:35%;
+    position: relative;
+    perspective: 800px;    
+    transform-style: preserve-3d;    
+    position:absolute;        
+}
+/*product detail styles */
+.details{
+    background:#fff;    
+    position:absolute;
+    top:300px;
+    left:0;
+    width:270px;
+    height:200px;
+    padding:27px 35px 35px; 
+    box-shadow:0px 13px 21px 5px rgba(0, 0, 0, 0.3);
+}
+.details .pname{
+    font-size:22px;
+    color:#393c45;  
+}
+.details .price{
+    float:right;
+    color:#48cfad;
+    font-size:22px;
+    font-weight:600;
+}
+.details p{
+    font-size:16px;
+    color:#b1b1b3;  
+    padding:2px 0 20px 0;
+    margin: 0;
+}
+/*image overlay styles */
+.overlay{
+    position:absolute;
+    top:0;
+    left:0; 
+    width:100%;
+    height:100%;
+    background:#48daa1;
+    opacity:0.7;  
+}
+#box{
+    top:5px;
+    left:5px;
+    width:335px;
+    height:500px;
+    box-shadow:0px 13px 21px 5px rgba(0, 0, 0, 0.3);
+}
+
+/*view detail button styles */
+#view{  
+    position:absolute;
+    top:112px;
+    left:25%;    
+    border:2px solid #fff;
+    color:#fff;
+    font-size:19px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:700;
+    padding:10px 0;
+    width:172px;    
+}
+#view:hover{    
+    background:#fff;
+    color:#48cfad;
+    cursor:pointer;
+}
+
+/*size and color styles */
+.sizeandcolor{
+    padding:2px 0 0;
+}
+.sizeandcolor strong{
+    font-weight:bold;
+    color:#393c45;
+    font-size:14px;
+}
+.sizeandcolor span{  
+    color:#969699;
+    font-size:14px;
+    display:block;
+    margin-bottom:8px;
+}
+div.colors div{
+    margin-top:3px;
+    width:15px; 
+    height:15px;    
+    margin-right:5px;
+    float:left;
+}
+div.colors div span{
+    width:15px; 
+    height:15px; 
+    display:block;
+    border-radius:50%;
+}
+
+div.blue span{background:#6e8cd5;}
+div.red span{background:#f56060;}
+div.green span{background:#44c28d;}
+div.white span{
+    background:#fff;
+    width:14px;
+    height:14px; 
+    border:1px solid #e8e9eb;
+}
+
